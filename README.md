@@ -1,4 +1,9 @@
 # Fracture Classification and Detection Using Parallel Machine Learning
+
+![Fracture Detection Using AI]()
+
+
+
 ## Introduction
 This project aims to leverage the power of Parallel Machine Learning to enhance fracture detection in X-ray images. The integration of Artificial Intelligence (AI) and Machine Learning (ML) in medical imaging is a transformative innovation in the healthcare field, particularly in trauma care and orthopedic diagnostics. This project, developed for CSYE7105 at Northeastern University, applies advanced ML techniques to significantly improve the accuracy and efficiency of fracture detection while reducing diagnostic time.
 
