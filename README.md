@@ -1,6 +1,6 @@
 # Fracture Classification and Detection Using Parallel Machine Learning
 
-![Fracture Detection Using AI]()
+![Fracture Detection Using AI](https://raw.githubusercontent.com/Anee-Ark/Fracture-Classification-And-Detection/main/FractureImage.webp)
 
 
 
