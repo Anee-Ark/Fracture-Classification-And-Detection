@@ -20,7 +20,7 @@ High Accuracy: Achieved an 83% classification accuracy in fracture detection, de
 CUDA Acceleration: Integrated CUDA for data preprocessing to utilize GPU resources and minimize processing time.
 Model Optimization: Implements advanced regularization techniques and optimizes neural network architectures for medical imaging.
 
-# Methodology
+## Methodology
 ## Data Preparation
 Data preparation is key in this project. We employed two different approaches for handling X-ray images:
 
@@ -36,13 +36,13 @@ CUDA acceleration for handling computationally expensive operations.
 ## Parallel Computing
 The system employs Distributed Data Parallel (DDP) in PyTorch, distributing the model and data across multiple processors to improve the training speed. We also experimented with hybrid parallelism, combining model parallelism and data parallelism.
 
-# Results and Analysis
+## Results and Analysis
 Training Time Reduction: Through parallel processing, training time was reduced by 67% compared to traditional sequential methods.
 Scalability: Adding more CPUs led to faster processing times, though diminishing returns were observed after 4 CPUs. DDP showed significant performance improvements.
 Classification Accuracy: The model achieved an 83% accuracy rate on the test set, illustrating its reliability in identifying and classifying fractures.
 Visualizations: Confusion matrices and other visual tools are used to analyze the model’s performance across different fracture types.
 
-# Improvements and Future Work
+## Improvements and Future Work
 We identified areas where further improvements can be made:
 
 Data Loading Optimization: Use GPU-accelerated data transformation techniques for faster data loading.
@@ -50,6 +50,17 @@ Hybrid Parallelism: Combine model and data parallelism to reduce communication o
 Efficient Architectures: Explore architectures like MobileNets for faster training and inference.
 Advanced Regularization: Employ more sophisticated regularization techniques to improve model generalization.
 
-# Conclusion
+## Conclusion
 This project demonstrates the transformative potential of parallel computing in medical imaging. By automating the process of fracture detection using AI and ML, we have reduced diagnostic time and improved accuracy, thereby setting new standards for healthcare diagnostics.
 
+## Installation
+Prerequisites
+Ensure you have the following installed:
+
+Python 3.x
+PyTorch
+Dask
+CUDA (for GPU acceleration)
+
+## License
+This project is licensed under the MIT License.
